@@ -1,0 +1,21 @@
+{
+  "name": "forkstatsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "kupuoc",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "telegram-bot-api": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
